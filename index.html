@@ -190,7 +190,7 @@
           <h5 class="card-title">Tech Strategy</h5>
           <p class="card-text">Professional consulting for digital transformation and IT upgrades.</p>
           <div class="btn-group" role="group" aria-label="Action buttons">
-            <button type="button" class="btn btn-sm btn-primary view-btn" onclick="showProductDetails(this, 'consulting')">View</button>
+            <button type="button" class="btn btn-sm btn-primary view-btn" onclick="showProductDetails(this, 'consult')">View</button>
             <button type="button" class="btn btn-sm btn-secondary">Edit</button>
           </div>
           <span class="badge bg-secondary text-white" style="margin-left: 170px; height: 25px; line-height: 15px; display: inline-block;">9 min</span>
@@ -320,12 +320,30 @@
         desc = "Custom, responsive websites focused on modern UI/UX, accessibility, and performance.";
         extra = "Tailored for your brand identity and customer needs.";
         break;
-      case 'consulting':
+        case 'cloud':
+    title = "Cloud Infrastructure Solutions";
+    desc = "Scalable cloud services tailored to your business needs.";
+    extra = "Empower agility, storage, and collaboration with secure cloud setups.";
+    break;
+
+        case 'mobile':
+    title = "Cross-Platform Mobile Apps";
+    desc = "Develop seamless and high-performance apps for Android and iOS.";
+    extra = "Deliver user-friendly experiences with the latest mobile technologies.";
+    break;
+
+        case 'seo':
+    title = "Search Engine Optimization";
+    desc = "Boost your website’s visibility with proven SEO strategies.";
+    extra = "Drive organic traffic and improve search rankings effectively.";
+    break;
+
+        case 'consult':
         title = "IT & Digital Consulting";
         desc = "Expert consulting for digital transformation, software integration, and cloud strategies.";
         extra = "Build smart IT roadmaps to future-proof your business.";
         break;
-      case 'support':
+        case 'support':
         title = "24/7 Help Desk Support";
         desc = "Full-time IT and customer support tailored for enterprise needs.";
         extra = "Contact our expert support team any time, any day.";
